@@ -1,0 +1,168 @@
+(footprint "SON65P200X200X80-7N"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "LP5910-1.8DRVR")
+	(tags "Integrated Circuit")
+	(property "Reference" "IC**"
+		(at -0.075 -2.525 0)
+		(layer "F.SilkS")
+		(uuid "384325e7-6162-423a-9427-6322ffffe3c6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "SON65P200X200X80-7N"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "5ed6c478-6502-4fc7-ade5-f0c8697cf1dc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4227d7a7-38e9-44b5-87e4-253097af9e6a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8418e211-2032-43b9-9202-719dbe40e84a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -1.35 -1.325)
+		(end -1.225 -1.325)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "c698c92d-831c-45da-a008-b98acf063cfe")
+	)
+	(fp_line
+		(start -1.6 -1.3)
+		(end 1.6 -1.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "97d12d37-35c1-4dfc-8bcd-0178063e1014")
+	)
+	(fp_line
+		(start -1.6 1.3)
+		(end -1.6 -1.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "eb9b0cf3-149d-45e7-bf6d-ef436ad7664d")
+	)
+	(fp_line
+		(start 1.6 -1.3)
+		(end 1.6 1.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ef1fae69-d0e6-4336-b7af-5fc37fbeaf6c")
+	)
+	(fp_line
+		(start 1.6 1.3)
+		(end -1.6 1.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0517d70d-02d6-4b5b-bc96-f184d29f1755")
+	)
+	(pad "1" smd rect
+		(at -1.05 -0.65 90)
+		(size 0.35 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "70c7e9c5-8004-4fae-8069-2a8f4df757e9")
+	)
+	(pad "2" smd rect
+		(at -1.05 0 90)
+		(size 0.35 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "58bb4017-76d4-4231-8d11-9f814a54bd00")
+	)
+	(pad "3" smd rect
+		(at -1.05 0.65 90)
+		(size 0.35 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "c0eb666d-8bb7-4316-9ffa-a4794d8b0610")
+	)
+	(pad "4" smd rect
+		(at 1.05 0.65 90)
+		(size 0.35 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "9b069157-b742-44fd-b38c-6db7934142d4")
+	)
+	(pad "5" smd rect
+		(at 1.05 0 90)
+		(size 0.35 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "a98fb9dd-04aa-44a3-9386-a1e874add886")
+	)
+	(pad "6" smd rect
+		(at 1.05 -0.65 90)
+		(size 0.35 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "fba64d2b-dee9-4f3b-887f-2b8dd953eea2")
+	)
+	(pad "7" smd rect
+		(at 0 0)
+		(size 1.1 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "26a230b9-ed65-4112-ab98-443f3ea538a9")
+	)
+	(embedded_fonts no)
+	(model "E:/Design/Project/Camera/Design_file/3D/LP5910-1.8DRVR.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
